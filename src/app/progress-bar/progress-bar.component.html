@@ -1,0 +1,19 @@
+<div class="skill" (click) = "viewAllSkills()">
+  <div class="outer">
+    <div class="inner">
+      <div class="number" *ngIf="percentage === 'more'">
+        <b>{{percentage}}</b>
+      </div>
+      <div class="number" *ngIf="percentage !== 'more'">{{percentage}}</div>
+    </div>
+  </div>
+  <svg xmlns="" version="1.1" width="160px" height="160px">
+    <defs>
+      <linearGradient id="GradientColor">
+        <stop offset="0%" stop-color="#e91e63" />
+        <stop offset="100%" stop-color="#673ab7" />
+      </linearGradient>
+    </defs>
+    <circle cx="80" cy="80" r="70" stroke-linecap="round" [@progressBar]="getPercentage()" />
+  </svg>
+</div>

@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="h4 text-center mb-4 title">Professional Skills</div>
+  <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    <div class="card-body">
+      <div class="row" *ngFor="let skill of skills">
+        <div class="col"  align="center" *ngFor="let individual of skill">
+          <progress-bar *ngIf="individual !== undefined" [percentage]="individual.rating"></progress-bar>
+          {{individual?.name}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

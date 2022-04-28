@@ -1,0 +1,74 @@
+<app-header></app-header>
+<div class="page-content">
+  <div>
+    <div class="profile-page">
+      <div class="wrapper">
+        <div class="page-header page-header-small" filter-color="green">
+          <div
+            class="page-header-image"
+            data-parallax="true"
+            style="background-image: url('assets/images/cc-bg-1.png');background-size: auto;background-repeat: no-repeat;"
+          ></div>
+          <div class="container">
+            <div class="content-center">
+              <div class="cc-profile-image">
+                <a href="#"><img [src]="about?.profile_img" alt="Image" /></a>
+              </div>
+              <div class="h2 title">{{ about?.name }}</div>
+              <p class="category text-white">
+                {{ about?.title }}
+              </p>
+              <a
+                class="btn btn-primary smooth-scroll mr-2"
+                href="#contact"
+                data-aos="zoom-in"
+                data-aos-anchor="data-aos-anchor"
+                >Hire Me</a
+              ><a
+                class="btn btn-primary"
+                [href]="about?.resume_url"
+                target="blank"
+                data-aos="zoom-in"
+                data-aos-anchor="data-aos-anchor"
+                >Download CV</a
+              >
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+              <div class="button-container">
+                <a
+                  *ngFor="let button of about?.header_buttons"
+                  class="btn btn-default btn-round btn-lg btn-icon"
+                  [href]="button.link"
+                  rel="tooltip"
+                  target="blank"
+                  [title]="button.message"
+                  ><i [ngClass]="button.class"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="about">
+      <app-about [about]="about"></app-about>
+    </div>
+    <div class="section" id="skill">
+      <app-skills></app-skills>
+    </div>
+    <!-- <div class="section" id="projects">
+      <app-projects></app-projects>
+    </div>-->
+    <div class="section" id="experience">
+      <app-experience></app-experience>
+    </div>
+    <app-education></app-education>
+    <app-fascinate></app-fascinate>
+    <div class="section" id="contact">
+      <app-contact [about]="about"></app-contact>
+    </div>
+  </div>
+</div>
+<app-footer [about]="about"></app-footer>

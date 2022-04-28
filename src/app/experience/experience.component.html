@@ -1,0 +1,37 @@
+<div class="container cc-experience">
+  <div class="h4 text-center mb-4 title">Work Experience</div>
+  <div class="card" *ngFor="let experience of work_experiences">
+    <div class="row">
+      <div
+        class="col-md-3 bg-primary"
+        data-aos="fade-right"
+        data-aos-offset="50"
+        data-aos-duration="500"
+      >
+        <div class="card-body cc-experience-header">
+          <p>{{experience.startDate | date: format}} - {{experience.endDate === ''? 'Present': experience.endDate | date: format}}</p>
+          <div class="h5">{{experience.name}}</div>
+        </div>
+      </div>
+      <div
+        class="col-md-9"
+        data-aos="fade-left"
+        data-aos-offset="50"
+        data-aos-duration="500"
+      >
+        <div class="card-body">
+          <div class="h5">{{experience.position}}</div>
+          <ul>
+            <li *ngFor="let work of experience.roles_responsibility">{{work}}</li>
+          </ul>
+          <div *ngIf="experience.awards.length > 0">
+            <h6>Awards & Achievements</h6>
+            <ul>
+              <li *ngFor="let award of experience.awards">{{award}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="card" data-aos="fade-up" data-aos-offset="10">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <div class="card-body">
+          <div class="h4 mt-0 title">About</div>
+          <p>
+            {{about?.about}}
+          </p>
+          <p>
+            {{about?.summary}}
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="card-body">
+          <div class="h4 mt-0 title">Basic Information</div>
+          <div class="row">
+            <div class="col-sm-4">
+              <strong class="text-uppercase">Birthday:</strong>
+            </div>
+            <div class="col-sm-8">{{about?.dateOfBirth | date}}</div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-sm-4">
+              <strong class="text-uppercase">Email:</strong>
+            </div>
+            <div class="col-sm-8">{{about?.email}}</div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-sm-4">
+              <strong class="text-uppercase">Phone:</strong>
+            </div>
+            <div class="col-sm-8">{{about?.mobile}}</div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-sm-4">
+              <strong class="text-uppercase">Language:</strong>
+            </div>
+            <div class="col-sm-8">
+              <div class="row">
+                <div class="col" *ngFor="let language of about?.languages">
+                  <strong>{{language.name}}</strong><br>
+                  <sub><b>{{language.level}}</b></sub>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
