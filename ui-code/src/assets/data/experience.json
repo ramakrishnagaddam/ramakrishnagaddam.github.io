@@ -1,0 +1,64 @@
+[
+    {
+        "name": "J.P Morgan Chase & Co.",
+        "position": "Associate Software Developer",
+        "startDate": "01/03/2022",
+        "endDate": "",
+        "roles_responsibility": [
+            "Perfectly involved in technical design, development, and implementation of various applications on existing and emerging platforms.",
+            "Actively participated in application development and support of a variety of banking applications.",
+            "Helped team in testing, validating the application, and documentation."
+        ],
+        "awards": []
+    },
+    {
+        "name": "Mastercard",
+        "position": "Senior Bizops Engineer II",
+        "startDate": "03/09/2020",
+        "endDate": "01/19/2022",
+        "roles_responsibility": [
+            "Designed & Implemented a monitoring tool for all the applications within the organization. The application provides a better customer experience for analyzing the performance of their application and auto-triggers the alerts to the team when there are non-business failures.",
+            "Developed Chef Infra templates to automate the Infrastructural setup.",
+            "Developed Chef Habitat templates to automate the Deployment activity and enables the auto-scaling option on applications in case of heavy traffic without any manual intervention."
+        ],
+        "awards": []
+    },
+    {
+        "name": "Attra Infotech",
+        "position": "Senior Software Engineer",
+        "startDate": "09/19/2018",
+        "endDate": "02/19/2020",
+        "roles_responsibility": [
+            "Implemented the Jenkins Pipelines & Salt Minions for automating the Continuous Integration & Continuous Deployment (CI-CD) Process to avoid manual errors.",
+            "Actively participated in System Design and Architectural discussions with multiple clients.",
+            "Achieved the better performance and efficiency of the Event Triggering application by introducing the Event-Driven approach & Data Pipes."
+        ],
+        "awards": ["Won the Hackathon for the Innovate idea of centralizing the KYC process using the Blockchain Technology"]
+    },
+    {
+        "name": "Attra Infotech",
+        "position": "Software Engineer",
+        "startDate": "09/01/2017",
+        "endDate": "09/01/2018",
+        "roles_responsibility": [
+            "Mentored the new-joiners batch of 2017 and guided the new upcoming resources through knowledge transfer sessions.",
+            "Worked closely with our client Synchrony to gather the requirements and understand the functionality.",
+            "Trained the new joiners on the Cards & Payments Domain.",
+            "Developed a Proof of Concept on a simulator used for performing the transactions."
+        ],
+        "awards": ["Acheieved Best Perform on the Year"]
+    },
+    {
+        "name": "Attra Infotech",
+        "position": "Associate Software Engineer",
+        "startDate": "05/19/2016",
+        "endDate": "09/01/2017",
+        "roles_responsibility": [
+            "Developed an algorithm to identify the configuration difference in ATMs from different environments, which helped speed up the update process on production.",
+            "Developed the Proof of Concept for processing the settlement files received from different networks like (MasterCard, Visa, and Rupa).",
+            "Worked closely with Senior team members to gather more insights on Cards & Payments Domain.",
+            "Worked closely with one of our clients NCR team to migrate the AMZ Bank Base24 switch to Authentic switch."
+        ],
+        "awards": []
+    }
+]

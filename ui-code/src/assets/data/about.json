@@ -1,0 +1,75 @@
+{
+    "name": "Rama Krishna Gaddam",
+    "title": "Java Developer",
+    "mobile": "+91-8790089826",
+    "email": "ramakrishnagaddam93@gmail.com",
+    "dateOfBirth": "05/05/1994",
+    "about": "5+ Year's Experienced Software developer with a demonstrated history of working in the financial services and product industry. Worked on various projects over the years to improve customer satisfaction by making things faster and better.",
+    "summary": "I not only keep myself aware of latest technological trends, but also try to gain hands-on experience by doing some POCs on my own. This makes me future ready for different kind of roles that I can apply to. I believe in pragmatic learning rather than theoretical learning. Cerebral tasks are always taken as opportunity to learn something new and gain full advantage from it.",
+    "profile_img": "assets/images/profile_pic.jpeg",
+    "resume_url": "assets/data/ramakrishnagaddam.pdf",
+    "addressLine1": "22-2-25/C",
+    "addressLine2": "Andhra Kesarivari Veedhi 5th Line",
+    "city": "Kandukuru",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "pincode": "523105",
+    "languages": [
+        {
+            "name": "Telugu",
+            "level": "Mother Tongue"
+        }, 
+        {
+            "name": "English",
+            "level": "Proficient"
+        },
+        {
+            "name": "Hindi",
+            "level": "Intermediate"
+        }
+    ],
+    "header_buttons": [
+        {
+            "message": "Connect me on LinkedIn",
+            "class": "fa fa-linkedin",
+            "link": "https://www.linkedin.com/in/rama-krishna-gaddam-96476457/"
+        },
+        {
+            "message": "Check my work on GitHub",
+            "class": "fa fa-github",
+            "link": "https://github.com/ramakrishnagaddam"
+        },
+        {
+            "message": "Check my problem soving skills on Hackerrank",
+            "class": "fa fa-codepen",
+            "link": "https://www.hackerrank.com/ramakrishna23309"
+        },
+        {
+            "message": "Text me on Discord",
+            "class": "fa-brands fa-discord",
+            "link": "https://discord.com/users/ArjunPard#4760"
+        }
+    ],
+    "footer_buttons": [
+        {
+            "message": "Connect me on LinkedIn",
+            "class": "fa fa-linkedin",
+            "link": "https://www.linkedin.com/in/rama-krishna-gaddam-96476457/"
+        },
+        {
+            "message": "Check my work on GitHub",
+            "class": "fa fa-github",
+            "link": "https://github.com/ramakrishnagaddam"
+        },
+        {
+            "message": "Check my problem soving skills on Hackerrank",
+            "class": "fa fa-codepen",
+            "link": "https://www.hackerrank.com/ramakrishna23309"
+        },
+        {
+            "message": "Text me on Discord",
+            "class": "fa-brands fa-discord",
+            "link": "https://discord.com/users/ArjunPard#4760"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "level": "PG Certification",
+        "name": "Deep Learning & Neural Networks",
+        "College": "UpGrad (IIIT Bangalore)",
+        "startDate": "2020",
+        "endDate": "2021",
+        "achievements": [
+            "Apart from the daily office work, I have placed all my effects on understanding the Deep Learning concepts like Linear Regression, Logistic Regression, Naive Bayes, Model Selection, etc., and applied the concepts in assignments provided by the UpGrad for building the models on predicting the performance of the players.",
+            "Happy to announce that I have Achieved the 3.4 CGPA in the overall program."
+        ]
+    },
+    {
+        "level": "Bachelor's Degree",
+        "name": "Bachelor of Technology",
+        "College": "V.R.Siddhartha Engineering College",
+        "startDate": "2011",
+        "endDate": "2015",
+        "achievements": [
+            "While we are in the 2nd Year of college, we developed an application that helps students and staff connections. This application help students to clarify their doubts or post any problems in the college anonymously and post their idea staff can guide them with the process."
+        ]
+    },
+    {
+        "level": "Intermediate",
+        "name": "Mathematics & Science",
+        "College": "Sri Chaitanya Junior College",
+        "startDate": "2009",
+        "endDate": "2011",
+        "achievements": [
+            "I was pretty interested in Maths and computers, which dragged me to pick MPC in my 11th and 12th Standard, achieved a 90% score, and got a scholarship for Bachelor's Degree."
+        ]
+    }
+]

@@ -1,0 +1,137 @@
+{
+    "skills": [
+        {
+            "name": "Java",
+            "rating": 9,
+            "versions": [ "7", "8", "11" ]
+        },
+        {
+            "name": "Object Oriented Programming",
+            "rating": 9.5,
+            "versions": []
+        },
+        {
+            "name": "Multithreading",
+            "rating": 6,
+            "versions": []
+        },
+        {
+            "name": "Spring Framework",
+            "rating": 9,
+            "versions": [ "5" ]
+        },
+        {
+            "name": "Spring Boot",
+            "rating": 9,
+            "versions": []
+        },
+        {
+            "name": "Restful",
+            "rating": 9,
+            "versions": []
+        },
+        {
+            "name": "Cache",
+            "rating": 7,
+            "versions": []
+        },
+        {
+            "name": "Kafka",
+            "rating": 8,
+            "versions": []
+        },
+        {
+            "name": "Microservices",
+            "rating": 9,
+            "versions": []
+        },
+        {
+            "name": "Angular",
+            "rating": 9,
+            "versions": [ "11" ]
+        },
+        {
+            "name": "Type Script",
+            "rating": 9,
+            "versions": []
+        },
+        {
+            "name": "HTML",
+            "rating": 8,
+            "versions": [ "5" ]
+        },
+        {
+            "name": "CSS",
+            "rating": 8,
+            "versions": [ "3" ]
+        },
+        {
+            "name": "Pivotal Cloud Factory",
+            "rating": 8,
+            "versions": []
+        },
+        {
+            "name": "Jenkins Pipelines",
+            "rating": 6.5,
+            "versions": []
+        },
+        {
+            "name": "Jenkins Groovy Script",
+            "rating": 7,
+            "versions": []
+        },
+        {
+            "name": "Jenkins Groovy Script",
+            "rating": 7,
+            "versions": []
+        },
+        {
+            "name": "Git",
+            "rating": 8.5,
+            "versions": []
+        },
+        {
+            "name": "ISO8583",
+            "rating": 8,
+            "versions": []
+        },
+        {
+            "name": "Git",
+            "rating": 8.5,
+            "versions": []
+        },
+        {
+            "name": "JWT",
+            "rating": 8.5,
+            "versions": []
+        },
+        {
+            "name": "OAuth2",
+            "rating": 7,
+            "versions": []
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Bracketology Club: Using March Madness to Learn Data ScienceBracketology Club: Using March Madness to Learn Data Science",
+            "issuedBy": "LinkedIn",
+            "issued": "06/2020",
+            "expires": "",
+            "link": "https://www.linkedin.com/in/rama-krishna-gaddam-96476457/"
+        },
+        {
+            "name": "Strategic Thinking",
+            "issuedBy": "LinkedIn",
+            "issued": "07/2020",
+            "expires": "",
+            "link": "https://www.linkedin.com/in/rama-krishna-gaddam-96476457/"
+        },
+        {
+            "name": "Git Essential Training: The BasicsGit Essential Training: The Basics",
+            "issuedBy": "LinkedIn",
+            "issued": "07/2020",
+            "expires": "",
+            "link": "https://www.linkedin.com/in/rama-krishna-gaddam-96476457/"
+        }
+    ]
+}
