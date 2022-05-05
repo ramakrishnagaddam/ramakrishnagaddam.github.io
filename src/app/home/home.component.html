@@ -1,4 +1,3 @@
-<app-header></app-header>
 <div class="page-content">
   <div>
     <div class="profile-page">
@@ -7,7 +6,11 @@
           <div
             class="page-header-image"
             data-parallax="true"
-            style="background-image: url('assets/images/cc-bg-1.png');background-size: auto;background-repeat: no-repeat;"
+            style="
+              background-image: url('assets/images/cc-bg-1.png');
+              background-size: auto;
+              background-repeat: no-repeat;
+            "
           ></div>
           <div class="container">
             <div class="content-center">
@@ -26,10 +29,9 @@
                 >Hire Me</a
               ><a
                 class="btn btn-primary"
-                [href]="about?.resume_url"
-                target="blank"
                 data-aos="zoom-in"
                 data-aos-anchor="data-aos-anchor"
+                (click)="downloadCV()"
                 >Download CV</a
               >
             </div>
@@ -59,8 +61,8 @@
       <app-skills></app-skills>
     </div>
     <!-- <div class="section" id="projects">
-      <app-projects></app-projects>
-    </div>-->
+        <app-projects></app-projects>
+      </div>-->
     <div class="section" id="experience">
       <app-experience></app-experience>
     </div>

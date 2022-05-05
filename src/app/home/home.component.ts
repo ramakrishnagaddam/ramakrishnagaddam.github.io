@@ -19,4 +19,14 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  downloadCV() {
+    let link = document.createElement('a');
+    link.setAttribute('target', '_blank');
+    link.setAttribute('href', this.about?.resume_url);
+    link.setAttribute('download', 'resume.pdf');
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+  }
+
 }
