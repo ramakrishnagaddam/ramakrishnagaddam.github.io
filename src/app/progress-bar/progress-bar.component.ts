@@ -59,7 +59,7 @@ export class ProgressBarComponent implements OnInit {
 
   viewAllSkills() {
     if(this.percentage === 'more') {
-      this.route.navigate(["skills"]);
+      this.route.navigate(["/skills"]);
     }
   }
 }

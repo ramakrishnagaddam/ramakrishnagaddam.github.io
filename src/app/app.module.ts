@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { HomeComponent } from './home/home.component';
+import { SkillSetComponent } from './skill-set/skill-set.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     HeaderComponent,
     ProgressBarComponent,
-    HomeComponent
+    HomeComponent,
+    SkillSetComponent
   ],
   imports: [
     BrowserModule,

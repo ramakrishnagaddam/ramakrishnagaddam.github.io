@@ -20,13 +20,18 @@ export class HomeComponent implements OnInit {
   }
 
   downloadCV() {
-    let link = document.createElement('a');
-    link.setAttribute('target', '_blank');
-    link.setAttribute('href', this.about?.resume_url);
-    link.setAttribute('download', 'resume.pdf');
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
+    let url: string = this.about?.resume_url;
+    if(url != undefined) {
+      let fileName = url.substring(url.lastIndexOf('/') + 1);
+      let link = document.createElement('a');
+      link.setAttribute('target', '_blank');
+      link.setAttribute('href', url);
+      link.setAttribute('download', fileName);
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+    }
+    
   }
 
 }
