@@ -46,7 +46,7 @@
         },
         {
             "message": "Text me on Discord",
-            "class": "fa-brands fa-discord",
+            "class": "fa fa-comments",
             "link": "https://discord.com/users/ArjunPard#4760"
         }
     ],
@@ -68,7 +68,7 @@
         },
         {
             "message": "Text me on Discord",
-            "class": "fa-brands fa-discord",
+            "class": "fa fa-comments",
             "link": "https://discord.com/users/ArjunPard#4760"
         }
     ]

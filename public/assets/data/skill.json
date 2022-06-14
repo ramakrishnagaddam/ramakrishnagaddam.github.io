@@ -1,114 +1,144 @@
 {
     "skills": [
         {
+            "type": "tech",
             "name": "Java",
             "rating": 9,
-            "versions": [ "7", "8", "11" ]
+            "versions": [ "7", "8", "11" ],
+            "img": "https://cdn.tutsplus.com/mobile/uploads/legacy/71_learn-java/Java_Logo.png"
         },
         {
-            "name": "Object Oriented Programming",
-            "rating": 9.5,
-            "versions": []
-        },
-        {
-            "name": "Multithreading",
-            "rating": 6,
-            "versions": []
-        },
-        {
+            "type": "tech",
             "name": "Spring Framework",
             "rating": 9,
-            "versions": [ "5" ]
+            "versions": [ "5" ],
+            "img": "https://p92.com/binaries/content/gallery/p92website/technologies/spring-overview.png"
         },
         {
+            "type": "tech",
             "name": "Spring Boot",
             "rating": 9,
-            "versions": []
+            "versions": [],
+            "img": "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png"
         },
         {
+            "type": "tech",
             "name": "Restful",
             "rating": 9,
-            "versions": []
+            "versions": [],
+            "img": "https://miro.medium.com/max/301/1*zBOu9L3_nZug_VihJSYGOw.png"
         },
         {
-            "name": "Cache",
+            "type": "tech",
+            "name": "Redis Cache",
             "rating": 7,
-            "versions": []
+            "versions": [],
+            "img": "https://blog.dreamfactory.com/wp-content/uploads/2016/09/redis.png"
         },
         {
+            "type": "tech",
             "name": "Kafka",
             "rating": 8,
-            "versions": []
+            "versions": [],
+            "img": "https://digital.ai/sites/default/files/pictures/styles/maxwidth_300/public/pt_logos/apache-kafka.png"
         },
         {
+            "type": "tech",
             "name": "Microservices",
             "rating": 9,
-            "versions": []
+            "versions": [],
+            "img": "https://images.squarespace-cdn.com/content/v1/595cd20e1b10e30e621770e9/1519985847916-GO5DE5KXZJA34B78SOOM/cpn+microservices+architecture.png"
         },
         {
+            "type": "tech",
             "name": "Angular",
             "rating": 9,
-            "versions": [ "11" ]
+            "versions": [ "11" ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
         },
         {
+            "type": "tech",
             "name": "Type Script",
             "rating": 9,
-            "versions": []
+            "versions": [],
+            "img": "https://cdn.thenewstack.io/media/2022/01/10b88c68-typescript-logo.png"
         },
         {
+            "type": "tech",
             "name": "HTML",
             "rating": 8,
-            "versions": [ "5" ]
+            "versions": [ "5" ],
+            "img": "https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw"
         },
         {
+            "type": "tech",
             "name": "CSS",
             "rating": 8,
-            "versions": [ "3" ]
+            "versions": [ "3" ],
+            "img": "https://techcabal.com/wp-content/uploads/2014/10/css3.jpg"
         },
         {
+            "type": "tools",
+            "name": "Chef Infra",
+            "rating": 8,
+            "versions": [],
+            "img": "https://digital.ai/sites/default/files/pictures/styles/maxwidth_300/public/pt_logos/chef.png"
+        },
+        {
+            "type": "tools",
+            "name": "Chef Habitat",
+            "rating": 8,
+            "versions": [],
+            "img": "https://aster.cloud/wp-content/uploads/2020/01/habitat-by-chef.jpg"
+        },
+        {
+            "type": "tools",
             "name": "Pivotal Cloud Factory",
             "rating": 8,
-            "versions": []
+            "versions": [],
+            "img": "https://www.javainuse.com/pivotal-cloud.jpg"
         },
         {
+            "type": "tools",
             "name": "Jenkins Pipelines",
             "rating": 6.5,
-            "versions": []
+            "versions": [],
+            "img": "https://miro.medium.com/max/1400/1*LOFbTP2SxXcFpM_qTsUSuw.png"
         },
         {
+            "type": "tech",
             "name": "Jenkins Groovy Script",
             "rating": 7,
-            "versions": []
+            "versions": [],
+            "img": "https://miro.medium.com/max/1400/1*LOFbTP2SxXcFpM_qTsUSuw.png"
         },
         {
-            "name": "Jenkins Groovy Script",
-            "rating": 7,
-            "versions": []
-        },
-        {
+            "type": "tools",
             "name": "Git",
             "rating": 8.5,
-            "versions": []
+            "versions": [],
+            "img": "https://www.jambit.com/site/assets/files/9997/git-logo.-squaremedium.jpg"
         },
         {
+            "type": "tech",
             "name": "ISO8583",
             "rating": 8,
-            "versions": []
+            "versions": [],
+            "img": "https://www.girmiti.com/images/mobile/Interchange_mobile.png"
         },
         {
-            "name": "Git",
-            "rating": 8.5,
-            "versions": []
-        },
-        {
+            "type": "tech",
             "name": "JWT",
             "rating": 8.5,
-            "versions": []
+            "versions": [],
+            "img": "https://miro.medium.com/max/800/1*ulCspc56K_swYE1uuel_TA.png"
         },
         {
+            "type": "tech",
             "name": "OAuth2",
             "rating": 7,
-            "versions": []
+            "versions": [],
+            "img": "https://www.azureblue.io/content/images/2020/10/Oauth_logo.svg"
         }
     ],
     "certifications": [
@@ -132,6 +162,20 @@
             "issued": "07/2020",
             "expires": "",
             "link": "https://www.linkedin.com/in/rama-krishna-gaddam-96476457/"
+        }
+    ],
+    "tabs": [
+        {
+            "key": "tech", 
+            "value": "Technical"
+        }, 
+        {
+            "key": "tools", 
+            "value": "Tools"
+        }, 
+        {
+            "key": "others", 
+            "value": "Personal"
         }
     ]
 }
