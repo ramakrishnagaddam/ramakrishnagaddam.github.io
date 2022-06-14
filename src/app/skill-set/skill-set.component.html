@@ -1,1 +1,52 @@
-<p>skill-set works!</p>
+<div class="container top-100">
+  <nav class="nav nav-pills nav-fill">
+    <a
+      *ngFor="let tab of tabs"
+      class="nav-item nav-link"
+      [ngClass]="{ active: tab.key === activeTab }"
+      (click)="activateTab(tab.key)"
+      >{{ tab.value }}</a
+    >
+  </nav>
+</div>
+<div class="container mt-5">
+  <div class="tab-content" id="content">
+    <div
+      *ngFor="let tab of tabs"
+      class="tab-pane fade"
+      [id]="tab.key"
+      [ngClass]="{ 'show active': tab.key === activeTab }"
+      role="tabpanel"
+    >
+      <div
+        class="card me-3"
+        style="width: 18rem"
+        *ngFor="let skill of getSkills(tab.key)"
+      >
+        <img
+          [src]="skill.img"
+          class="card-img-top"
+          alt="skill.name"
+          height="220px"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ skill.name }}</h5>
+          <br />
+          <app-rating
+            [rating]="skill.rating"
+            [isHalfRating]="skill.isHalfRating"
+          ></app-rating>
+          <br /><br />
+          <p class="card-text" *ngIf="skill.versions.length !== 0">
+            Versions Worked On: <b>{{ skill.versions }}</b>
+          </p>
+        </div>
+        <div class="card-footer">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <a [routerLink]="" class="btn btn-primary" type="button">More&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

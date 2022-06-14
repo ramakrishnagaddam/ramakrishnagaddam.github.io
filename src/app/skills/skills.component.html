@@ -4,7 +4,7 @@
     <div class="card-body">
       <div class="row" *ngFor="let skill of skills">
         <div class="col"  align="center" *ngFor="let individual of skill">
-          <progress-bar *ngIf="individual !== undefined" [percentage]="individual.rating"></progress-bar>
+          <app-progress-bar *ngIf="individual !== undefined" [percentage]="individual.rating"></app-progress-bar>
           {{individual?.name}}
         </div>
       </div>
